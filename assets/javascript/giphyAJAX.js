@@ -12,18 +12,10 @@ $(document).ready(function() {
     }
 
     $("#add-hero").click(function() {
-      console.log("clicked");
-      // Preventing the buttons default behavior when clicked (which is submitting a form)
       event.preventDefault();
-      // This line grabs the input from the textbox
       var hero = $("#add-input").val().trim();
-
-      // Adding the movie from the textbox to our array
       topics.push(hero);
-
-      // Calling renderButtons which handles the processing of our movie array
       createButtons();
-
     });
 
     createButtons();
