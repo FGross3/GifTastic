@@ -1,0 +1,49 @@
+body{
+  background-image: url("../images/marvel_background4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.flex-container{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  align-content: center;
+}
+
+.topic{
+  padding: 12px 28px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  background-color: black;
+}
+
+.rating{
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+#add-form{
+  float: right;
+  padding-top: 10px;
+}
+
+#add-hero{
+  padding: 6px 28px;
+  margin-left: 10px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  background-color: grey;
+}
+
+img{
+  padding: 10px;
+}
+
