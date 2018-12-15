@@ -2,7 +2,6 @@ $(document).ready(function() {
     var topics = ["Iron Man", "Thor", "Starlord", "Black Panther", "The Incredible Hulk", "Dr. Strange", "Captian America", "Drax"];
 
     function createButtons() {
-
         $("#btnContainer").empty();
 
         for (var i = 0; i < topics.length; i++) {
